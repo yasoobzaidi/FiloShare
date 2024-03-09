@@ -135,15 +135,18 @@
 }
 @media only screen and (max-width: 1200px) {
   .stripe-landing-text,.stripe-landing-text04 {
-    text-align: center; /* Center the text */
-    margin-top: 60px; /* Adjust as needed */
+    margin-top: 40px; /* Adjust as needed */
+    padding-right: 40px ;
+    margin-left: -90px;
+    transform: scale(0.95);
   }
   .stripe-landing-button-signin{
     transform: scale(0.95);
   }
   .desc{
-    margin-right: 200px;
-    text-align: center;
+    padding-right: 15%;
+    margin-right: 125px;
+    text-align: left;
     transform: scale(0.9);
   }
   .godown{
@@ -177,6 +180,7 @@
 }
 
 @media (max-width: 1200px) {
+
   .popup {
     display: block;
   }
@@ -209,6 +213,12 @@
   cursor: pointer;
   outline: none;
   padding: 8px 16px; /* Add padding for better appearance */
+}
+
+/* Style for the link inside the button */
+#okButton a {
+  text-decoration: none;
+  color: white;
 }
 
 /* Style for the link inside the button */
