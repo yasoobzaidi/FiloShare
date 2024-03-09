@@ -1,0 +1,314 @@
+.stripe-landing-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.stripe-landing-stripe-landing {
+  width: 100%;
+  height: 696px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: var(--dl-color-default-white);
+}
+.stripe-landing-vector6 {
+  top: -66px;
+  right: -69px;
+  width: 828px;
+  height: 508px;
+  position: absolute;
+}
+.stripe-landing-ellipse10 {
+  top: 274px;
+  left: 750.9998779296875px;
+  width: 274px;
+  height: 266px;
+  position: absolute;
+}
+.stripe-landing-ellipse8 {
+  left: 770px;
+  width: 429px;
+  bottom: -62px;
+  height: 415px;
+  position: absolute;
+}
+.stripe-landing-ellipse7 {
+  right: -155px;
+  width: 683px;
+  bottom: -11px;
+  height: 469px;
+  position: absolute;
+}
+.stripe-landing-ellipse6 {
+  right: -46px;
+  width: 620px;
+  bottom: -61px;
+  height: 425px;
+  position: absolute;
+}
+.stripe-landing-ellipse9 {
+  top: -40px;
+  left: 685px;
+  width: 589px;
+  height: 226px;
+  position: absolute;
+}
+.stripe-landing-text {
+  top: 372px;
+  left: 90px;
+  color: var(--dl-color-default-headlines);
+  width: 500px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: normal;
+  text-align: left;
+  font-family: "Outfit";
+  font-weight: 500;
+  line-height: 30px;
+  animation-name: fadeInLeft;
+  animation-delay: 0s;
+  animation-duration: 500ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.stripe-landing-text04 {
+  top: 187px;
+  left: 91px;
+  color: var(--dl-color-default-headlines);
+  width: 500px;
+  height: auto;
+  position: absolute;
+  font-size: 50px;
+  text-align: left;
+  font-family: "Outfit";
+  font-weight: 900;
+  line-height: 50px;
+  animation-name: fadeInLeft;
+  animation-delay: 0s;
+  animation-duration: 500ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.stripe-landing-ct-as {
+  gap: 4px;
+  left: 91px;
+  width: 368px;
+  bottom: 60px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+}
+@media (max-width: 1000px){
+  .stripe-landing-ct-as{
+    display: none;
+  }
+}
+
+
+.stripe-landing-primary-button {
+  gap: 8px;
+  width: 112px;
+  height: 47px;
+  display: flex;
+  padding: 0 13px;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background-color: var(--dl-color-default-primarybuttons);
+  transition: 0.3s;
+}
+
+
+
+.stripe-landing-primary-button:hover{
+  background-color: #F57D20;
+  color: #fff;
+}
+.stripe-landing-primary-button:active{
+  transform: scale(0.95);
+}
+
+
+
+
+.stripe-landing-text05 {
+  color: var(--dl-color-default-white);
+  height: auto;
+  flex-grow: 1;
+  font-size: 15px;
+  font-style: Medium;
+  text-align: center;
+  font-family: "Outfit";
+  font-weight: 500;
+  line-height: 92px;
+  font-stretch: normal;
+  text-decoration: none;
+  transition: 0.3s ;
+}
+.stripe-landing-text05:active{
+  transform: scale(0.95);
+}
+
+.stripe-landing-vector {
+  width: 6px;
+  height: 9px;
+}
+.stripe-landing-secondary-button {
+  gap: 8px;
+  width: 150px;
+  height: 47px;
+  display: flex;
+  padding: 0 23px;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 100px;
+  transition: 0.3s;
+}
+.stripe-landing-secondary-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.stripe-landing-secondary-button:hover {
+  transform: scale(1.05);
+}
+.stripe-landing-secondary-button:active {
+  transform: scale(0.97);
+}
+
+.stripe-landing-text06 {
+  color: var(--dl-color-default-secondarybuttons);
+  height: auto;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: center;
+  font-family: "Outfit";
+  font-weight: 500;
+  line-height: 92px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stripe-landing-text07 {
+  font-size: 15px;
+  transition: 0.3s;
+}
+.stripe-landing-text07:hover {
+  box-shadow: #ffffff;
+  color: white;
+}
+.stripe-landing-vector-stroke {
+  width: 6px;
+  height: 9px;
+}
+
+.stripe-landing-window {
+  top: 174px;
+  right: 41px;
+  width: 799px;
+  height: 461px;
+  opacity: 0.64;
+  position: absolute;
+  border-radius: 20px;
+  animation-name: fadeInRight;
+  animation-delay: 0s;
+  animation-duration: 900ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.stripe-landing-prodimg1 {
+  top: 190px;
+  right: 55px;
+  width: 770px;
+  height: 430px;
+  opacity: 0.75;
+  position: absolute;
+  border-radius: 20px;
+  animation-name: fadeInRight;
+  animation-delay: 0s;
+  animation-duration: 900ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.stripe-landing-button-signin {
+  gap: 10px;
+  top: 55px;
+  right: 64px;
+  width: 85px;
+  height: 34px;
+  display: flex;
+  padding: 0 13px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background-color: rgba(255, 255, 255, 0.23999999463558197);
+  transition: 0.3s;
+}
+.stripe-landing-button-signin:hover {
+  background-color: #ffffff;
+  color: white;
+}
+.stripe-landing-text09 {
+  color: var(--dl-color-default-white);
+  height: auto;
+  flex-grow: 1;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: center;
+  font-family: "Outfit" , sans-serif;
+  font-weight: 500;
+  line-height: 92px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stripe-landing-vector1-stroke {
+  width: 6px;
+  height: 9px;
+}
+.stripe-landing-text11 {
+  top: 43px;
+  left: 639px;
+  color: rgb(255, 255, 255);
+  width: auto;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 35px;
+  font-style: Black;
+  text-align: center;
+  font-family: "Outfit";
+  font-weight: 900;
+  line-height: 34px;
+  font-stretch: normal;
+  animation-name: fadeInDown;
+  animation-delay: 0s;
+  text-decoration: none;
+  animation-duration: 600ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+}
+.heading{
+  color: white;
+  font-family: "Outfit" , sans-serif;
+  padding-top: 50px;
+  font-size: 40px;
+  font-weight: 900;
+}
+

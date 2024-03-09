@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Download FiloShare</title>
+  <link rel="icon" type="image/x-icon" href="/filoshare logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+  body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url(./Landing.png);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.text {
+  color: #ffff;   
+  font-family: "Outfit", sans-serif;
+  position: absolute;
+  font-size: 35px;
+  width: 450px;
+  left: 50%;
+  margin-left: -250px;
+  margin-top: 40px;
+}
+
+p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+.word {
+  position: absolute;
+  width: 220px;
+  opacity: 0;
+}
+
+.letter {
+  display: inline-block;
+  position: relative;
+  float: left;
+  transform: translateZ(25px);
+  transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+  transform: rotateX(90deg);
+  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.letter.in {
+  transform: rotateX(0deg);
+  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.wisteria {
+  color: #37C1FE;
+}
+
+.belize {
+  color: #A6033F;
+}
+
+.pomegranate {
+  color: #384D53;
+}
+
+
+.buttons {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .button {
+      margin: 0 10px; /* Adjust the spacing between buttons */
+    }
+
+    button {
+      background-color: rgba(255, 255, 255, 0.1);
+      border: none;
+      margin: 325px 32px;
+      padding: 20px 20px 20px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 10px;
+      font-family: "Outfit" , snas-serif;
+      transition: 0.3s;
+    }
+    button:hover{
+      transform: scale(1.05);
+      background-color:  rgba(255, 255, 255, 0.3);
+    }
+    .btntxt{
+      color: white;
+    }
+</style>
+<body class="bg">
+  
+
+
+<div class="text">
+    <p >Download FiloShare for</p>
+    <p>
+      <span class="word wisteria">Windows</span>
+      <span class="word belize">Linux</span>
+      <span class="word pomegranate">Docker</span>
+    </p>
+  </div>
+  <div class="buttons">
+    <div class="button">
+      <button><a class="btntxt" href="https://sourceforge.net/projects/filoshare/files/windows_stable_release/filoshare-setup.exe/download" style="text-decoration: none; ">Download for Windows</p></button>
+    </div>
+    <div class="button">
+      <button><a class="btntxt" href="#" style="text-decoration: none; ">Linux Upcoming!</a></button>
+    </div>
+    <div class="button">
+      <button><a class="btntxt" href="https://hub.docker.com/r/devdivyansh/filoshare" style="text-decoration: none;">Download for Docker</a></button>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+

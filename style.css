@@ -1,0 +1,218 @@
+:root {
+  --dl-color-gray-500: #595959;
+  --dl-color-gray-700: #999999;
+  --dl-color-gray-900: #D9D9D9;
+  --dl-size-size-large: 144px;
+  --dl-size-size-small: 48px;
+  --dl-color-danger-300: #A22020;
+  --dl-color-danger-500: #BF2626;
+  --dl-color-danger-700: #E14747;
+  --dl-color-gray-black: #000000;
+  --dl-color-gray-white: #FFFFFF;
+  --dl-size-size-medium: 96px;
+  --dl-size-size-xlarge: 192px;
+  --dl-size-size-xsmall: 16px;
+  --dl-space-space-unit: 16px;
+  --dl-color-primary-100: #003EB3;
+  --dl-color-primary-300: #0074F0;
+  --dl-color-primary-500: #14A9FF;
+  --dl-color-primary-700: #85DCFF;
+  --dl-color-success-300: #199033;
+  --dl-color-success-500: #32A94C;
+  --dl-color-success-700: #4CC366;
+  --dl-size-size-xxlarge: 288px;
+  --dl-size-size-maxwidth: 1400px;
+  --dl-color-default-white: rgba(0, 0, 0, 1);
+  --dl-radius-radius-round: 50%;
+  --dl-space-space-halfunit: 8px;
+  --dl-space-space-sixunits: 96px;
+  --dl-space-space-twounits: 32px;
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius8: 8px;
+  --dl-space-space-fiveunits: 80px;
+  --dl-space-space-fourunits: 64px;
+  --dl-space-space-threeunits: 48px;
+  --dl-color-default-headlines: rgba(255, 255, 255, 1);
+  --dl-color-default-subtitles: rgba(255, 255, 255, 1);
+  --dl-space-space-oneandhalfunits: 24px;
+  --dl-color-default-primarybuttons: rgba(153, 153, 153, 1);
+  --dl-color-default-stripegradient: rgba(169, 96, 238, 1);
+  --dl-color-default-windowgradient: rgba(231, 232, 237, 1);
+  --dl-color-default-secondarybuttons: rgba(255, 255, 255, 1);
+}
+.bg{
+  height: 100%;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+.button {
+  color: var(--dl-color-gray-black);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.input {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.textarea {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.list-item {
+  display: list-item;
+}
+.teleport-show {
+  display: flex !important;
+  transform: none !important;
+}
+.Content {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.Heading {
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.Headline1 {
+  font-size: 87px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.Headline4 {
+  font-size: 15px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.Body1 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.Buttons {
+  font-size: 15px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+@media only screen and (max-width: 1200px) {
+  .stripe-landing-text,.stripe-landing-text04 {
+    text-align: center; /* Center the text */
+    margin-top: 60px; /* Adjust as needed */
+  }
+  .stripe-landing-button-signin{
+    transform: scale(0.95);
+  }
+  .desc{
+    margin-right: 200px;
+    text-align: center;
+    transform: scale(0.9);
+  }
+  .godown{
+    padding-top: 450px;
+  }
+  @media (max-width: 1000px) {
+    .stripe-landing-prodimg1,
+    .stripe-landing-window {
+      max-width: 80%; /* Adjust the size as needed */
+      width: auto;
+      height: auto;
+    }
+  }
+  .stripe-landing-primary-button,.stripe-landing-secondary-button{
+    margin-top: 300px;
+  }
+}
+
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border: 1px solid grey;
+  z-index: 9999;
+  border-radius: 20px;
+}
+
+@media (max-width: 1200px) {
+  .popup {
+    display: block;
+  }
+  .stripe-landing-button-signin{
+    margin-top: 60px;
+    margin-right: 80px;
+  }
+}
+.popup {
+  font-family: "Outfit" , sans-serif;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  backdrop-filter: blur(8px); /* Apply a blur effect to the background */
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  z-index: 9999; /* Ensure the popup appears on top of other content */
+}
+
+/* Style for the button */
+#okButton {
+  font-family: "Outfit" , sans-serif;
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 10px; /* Add a white border */
+  cursor: pointer;
+  outline: none;
+  padding: 8px 16px; /* Add padding for better appearance */
+}
+
+/* Style for the link inside the button */
+#okButton a {
+  text-decoration: none;
+  color: white;
+}
