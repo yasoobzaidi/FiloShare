@@ -226,3 +226,8 @@
   text-decoration: none;
   color: white;
 }
+@media (max-width: 1500px) {
+  .desc{
+    margin-right: 150px;
+  }
+}
