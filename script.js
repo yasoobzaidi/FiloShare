@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 5000); // 5000 milliseconds = 5 seconds
 });
 function isMobileView() {
-    return window.innerWidth <= 1000; // You can adjust the threshold as needed
+    return window.innerWidth <= 900; // You can adjust the threshold as needed
 }
 
 // Function to redirect to another HTML file if in mobile view
