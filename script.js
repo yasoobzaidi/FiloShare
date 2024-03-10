@@ -20,7 +20,7 @@ function isMobileView() {
 // Function to redirect to another HTML file if in mobile view
 function redirectToMobilePage() {
     if (isMobileView()) {
-        window.location.href = '/MobileFilo/index.html'; // Change 'mobile_page.html' to the desired HTML file
+        window.location.href = 'https://yasoobzaidi.github.io/filosharemobile/'; // Change 'mobile_page.html' to the desired HTML file
     }
 }
 
